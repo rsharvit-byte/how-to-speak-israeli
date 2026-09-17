@@ -1,3 +1,5 @@
+const asset = (file) => `${import.meta.env.BASE_URL}assets/${file}`
+
 export const CARDS = [
   {
     id: 'title',
@@ -7,7 +9,7 @@ export const CARDS = [
       { text: 'Are you Israeli yet?', role: 'slang' },
     ],
     background: 'bg-title',
-    media: '/assets/meme-zohan-letsgo.mp4',
+    media: asset('meme-zohan-letsgo.mp4'),
     notes: [
       'Okay, final exam. Are you Israeli yet?',
       'You set the scene. They shout the word.',
@@ -21,7 +23,7 @@ export const CARDS = [
       { text: 'Yalla!', role: 'slang' },
     ],
     background: 'bg-yalla',
-    media: '/assets/meme-kramer-yalla.mp4',
+    media: asset('meme-kramer-yalla.mp4'),
     notes: [
       'We’re late for a meeting.',
       'Wait for it — Yalla!',
@@ -36,7 +38,7 @@ export const CARDS = [
       { text: 'Sababa.', role: 'slang' },
     ],
     background: 'bg-sababa',
-    media: '/assets/meme-joey-sababa.mp4',
+    media: asset('meme-joey-sababa.mp4'),
     notes: [
       'Someone asks if the plan works for you.',
       'Wait for it — Sababa.',
@@ -51,7 +53,7 @@ export const CARDS = [
       { text: 'What a balagan.', role: 'slang' },
     ],
     background: 'bg-balagan',
-    media: '/assets/meme-simpsons-balagan.mp4',
+    media: asset('meme-simpsons-balagan.mp4'),
     notes: [
       'Your Figma file has 47 unresolved comments.',
       'Wait for it — What a balagan.',
@@ -67,7 +69,7 @@ export const CARDS = [
       { text: 'Tachles?', role: 'slang' },
     ],
     background: 'bg-tachles',
-    media: '/assets/meme-george-tachles.mp4',
+    media: asset('meme-george-tachles.mp4'),
     notes: [
       'Someone has been talking for five minutes and still hasn’t made their point.',
       'Wait for it — Tachles?',
@@ -83,7 +85,7 @@ export const CARDS = [
       { text: 'Nu?!', role: 'slang' },
     ],
     background: 'bg-nu',
-    media: '/assets/meme-phoebe-nu.mp4',
+    media: asset('meme-phoebe-nu.mp4'),
     notes: [
       'And someone says, “I have some news…” and then stops.',
       'Wait for it — Nu?!',
@@ -98,7 +100,7 @@ export const CARDS = [
       { text: 'Yalla, bye!', role: 'slang', emoji: '🇮🇱' },
     ],
     background: 'bg-exam',
-    media: '/assets/meme-ww-bye.mp4',
+    media: asset('meme-ww-bye.mp4'),
     notes: [
       'Sababa. You’re ready for Israel. Yalla, bye!',
     ],
